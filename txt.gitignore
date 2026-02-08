@@ -1,0 +1,8 @@
+# Docker
+sqldata/
+
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
