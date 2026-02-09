@@ -1,6 +1,6 @@
 ﻿namespace SistemaTK
 {
-    partial class login
+    partial class Register
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // login
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "login";
-            this.Text = "login";
-            this.ResumeLayout(false);
-
+            this.Text = "Register";
         }
 
         #endregion
