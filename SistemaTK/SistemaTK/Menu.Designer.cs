@@ -36,9 +36,7 @@
             this.btnlogin = new FontAwesome.Sharp.IconMenuItem();
             this.btnsoporte = new FontAwesome.Sharp.IconMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menutitulo
@@ -133,20 +131,11 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 125);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(888, 339);
             this.panel1.TabIndex = 3;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(671, 159);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
             // 
             // Menu
             // 
@@ -162,7 +151,6 @@
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -177,7 +165,6 @@
         private FontAwesome.Sharp.IconMenuItem btneventos;
         private FontAwesome.Sharp.IconMenuItem btnlogin;
         private FontAwesome.Sharp.IconMenuItem btnsoporte;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
